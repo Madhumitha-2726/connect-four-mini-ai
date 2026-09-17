@@ -95,7 +95,7 @@ def score_position(board, piece):
     # Vertical
     for col in range(COLS):
         for row in range(ROWS - 3):
-            window = [board[row + i][col] for row in range(4)]
+            window = [board[row + i][col] for i in range(4)]
             score += evaluate_window(window, piece)
 
     # Positive diagonals
