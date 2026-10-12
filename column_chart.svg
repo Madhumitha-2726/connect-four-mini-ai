@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360">
+<rect width="100%" height="100%" fill="white"/>
+<text x="380" y="28" text-anchor="middle" font-family="Arial" font-size="20">Connect Four: Column Comparison</text>
+<text x="55" y="58" font-family="Arial" font-size="12">Blue: Monte Carlo win probability (%) | Orange: Minimax score (scaled)</text>
+<rect x="85" y="184.4" width="24" height="85.6" fill="#3b82f6"/>
+<rect x="113" y="170.0" width="24" height="100.0" fill="#f59e0b"/>
+<text x="110" y="295" text-anchor="middle" font-family="Arial" font-size="13">0</text>
+<text x="97" y="174.4" text-anchor="middle" font-family="Arial" font-size="10">43%</text>
+<rect x="177" y="150.0" width="24" height="120.0" fill="#3b82f6"/>
+<rect x="205" y="122.38095238095238" width="24" height="147.61904761904762" fill="#f59e0b"/>
+<text x="202" y="295" text-anchor="middle" font-family="Arial" font-size="13">1</text>
+<text x="189" y="140.0" text-anchor="middle" font-family="Arial" font-size="10">60%</text>
+<rect x="269" y="186.0" width="24" height="84.0" fill="#3b82f6"/>
+<rect x="297" y="154.12698412698415" width="24" height="115.87301587301586" fill="#f59e0b"/>
+<text x="294" y="295" text-anchor="middle" font-family="Arial" font-size="13">2</text>
+<text x="281" y="176.0" text-anchor="middle" font-family="Arial" font-size="10">42%</text>
+<rect x="361" y="203.6" width="24" height="66.4" fill="#3b82f6"/>
+<rect x="389" y="263.6507936507937" width="24" height="6.349206349206349" fill="#f59e0b"/>
+<text x="386" y="295" text-anchor="middle" font-family="Arial" font-size="13">3</text>
+<text x="373" y="193.6" text-anchor="middle" font-family="Arial" font-size="10">33%</text>
+<rect x="453" y="196.4" width="24" height="73.6" fill="#3b82f6"/>
+<rect x="481" y="244.6031746031746" width="24" height="25.396825396825395" fill="#f59e0b"/>
+<text x="478" y="295" text-anchor="middle" font-family="Arial" font-size="13">4</text>
+<text x="465" y="186.4" text-anchor="middle" font-family="Arial" font-size="10">37%</text>
+<rect x="545" y="206.0" width="24" height="64.0" fill="#3b82f6"/>
+<rect x="573" y="270" width="24" height="0" fill="#f59e0b"/>
+<text x="570" y="295" text-anchor="middle" font-family="Arial" font-size="13">5</text>
+<text x="557" y="196.0" text-anchor="middle" font-family="Arial" font-size="10">32%</text>
+<rect x="637" y="207.6" width="24" height="62.4" fill="#3b82f6"/>
+<rect x="665" y="270" width="24" height="0" fill="#f59e0b"/>
+<text x="662" y="295" text-anchor="middle" font-family="Arial" font-size="13">6</text>
+<text x="649" y="197.6" text-anchor="middle" font-family="Arial" font-size="10">31%</text>
+<text x="380" y="330" text-anchor="middle" font-family="Arial" font-size="13">Column (0–6); bar scales differ</text></svg>

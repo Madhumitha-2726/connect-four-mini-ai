@@ -1,0 +1,236 @@
+{
+  "node_counts": {
+    "with_rule_ordering": 409,
+    "without_rule_ordering": 524
+  },
+  "column_results": {
+    "0": {
+      "monte_carlo_win_probability": 0.428,
+      "minimax_score": 0
+    },
+    "1": {
+      "monte_carlo_win_probability": 0.6,
+      "minimax_score": 30
+    },
+    "2": {
+      "monte_carlo_win_probability": 0.42,
+      "minimax_score": 10
+    },
+    "3": {
+      "monte_carlo_win_probability": 0.332,
+      "minimax_score": -59
+    },
+    "4": {
+      "monte_carlo_win_probability": 0.368,
+      "minimax_score": -47
+    },
+    "5": {
+      "monte_carlo_win_probability": 0.32,
+      "minimax_score": -63
+    },
+    "6": {
+      "monte_carlo_win_probability": 0.312,
+      "minimax_score": -63
+    }
+  },
+  "agent_win_rates": {
+    "minimax_wins": 0.75,
+    "rollout_wins": 0.25,
+    "draws": 0.0
+  },
+  "games_played": 8,
+  "puzzles": [
+    {
+      "player": "X",
+      "win_in": 2,
+      "counts": {
+        "X": 9,
+        "O": 9
+      },
+      "board": [
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          "X",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          "O",
+          "X",
+          "X",
+          ".",
+          ".",
+          ".",
+          "O"
+        ],
+        [
+          "O",
+          "O",
+          "X",
+          "O",
+          "O",
+          ".",
+          "X"
+        ],
+        [
+          "X",
+          "X",
+          "X",
+          "O",
+          "X",
+          "O",
+          "O"
+        ]
+      ]
+    },
+    {
+      "player": "X",
+      "win_in": 2,
+      "counts": {
+        "X": 9,
+        "O": 9
+      },
+      "board": [
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          "X",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          "O",
+          ".",
+          "O",
+          ".",
+          "O"
+        ],
+        [
+          "X",
+          "O",
+          "X",
+          "O",
+          "X",
+          "X",
+          "X"
+        ],
+        [
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X",
+          "O"
+        ]
+      ]
+    },
+    {
+      "player": "X",
+      "win_in": 2,
+      "counts": {
+        "X": 6,
+        "O": 6
+      },
+      "board": [
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          ".",
+          "O",
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        [
+          "O",
+          "X",
+          ".",
+          "X",
+          ".",
+          ".",
+          "X"
+        ],
+        [
+          "O",
+          "X",
+          "X",
+          "O",
+          "O",
+          "O",
+          "X"
+        ]
+      ]
+    }
+  ]
+}
