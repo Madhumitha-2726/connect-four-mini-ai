@@ -32,5 +32,55 @@ connect-four-mini-ai/
 │   └── report.pdf           # 2-4 page project report
 ├── requirements.txt         # Dependencies
 ├── .gitignore
+
+## Final Project Extension
+
+This project extends the Connect Four Mini AI using explainable decision-making and puzzle generation.
+
+### 1. Features Implemented
+
+- **Depth-Limited Minimax:** Searches possible moves up to a selected depth and evaluates non-terminal board states.
+- **Rule-Based Move Ordering:** Prioritizes immediate winning moves, blocking the opponent, centre-column moves, and threat creation.
+- **Alpha-Beta Pruning Comparison:** Compares the number of nodes searched with and without rule-based move ordering.
+- **CSP Puzzle Generator:** Generates Connect Four win-in-N puzzles using backtracking and constraint propagation.
+- **Monte Carlo Rollouts:** Estimates winning probabilities for possible column moves and compares the results with the Minimax agent.
+- **Puzzle Verification:** Checks generated puzzles using the Minimax algorithm.
+
+### 2. How to Run
+
+1. Clone or download this repository.
+2. Install the dependencies listed in `requirements.txt`, if required.
+3. Open a terminal in the project directory.
+4. Run the main program:
+
+```bash
+python src/main.py
+```
+
+5. Run the extension program:
+
+```bash
+python src/extension.py
+```
+
+### 3. Experiments and Results
+
+The final project evaluates:
+
+- Nodes searched with and without rule-based move ordering.
+- Minimax versus Monte Carlo rollout agent win-rates.
+- Estimated win probability for each column.
+- Three generated win-in-N puzzles and their verification results.
+
+Add actual screenshots, measurements, and outputs from your program here.
+
+### 4. Reflection
+
+This project helped me understand game-tree search, heuristic evaluation, alpha-beta pruning, constraint satisfaction, backtracking, and Monte Carlo simulation. One challenge was combining puzzle generation with reliable move selection and verification.
+
+### 5. Acknowledgement
+
+AI assistance and external references, if used, should be acknowledged here. The implementation and results should be reviewed and understood by the author.
+
 ├── LICENSE                  # MIT License
 └── README.md                # Documentation
